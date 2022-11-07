@@ -10,10 +10,10 @@ export const databaseProviders = [
     inject: [ConfigService],
     useFactory: async (configService: ConfigService) => {
       const config = {
-        username: 'postgres',
-        password: 'Lenovo1230!',
+        username: 'dummyusername',
+        password: 'dummypassword',
         database: 'vending_machine',
-        host: 'localhost',
+        host: 'dummhost',
         port: '5432',
         dialect: 'postgres',
         urlDatabase: 'localhost',
